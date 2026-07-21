@@ -2,8 +2,6 @@
 
 Open hardware embedded I/O controller for automation and IoT projects.
 
-![BASIX Alpha](images/real-topview.jpeg)
-
 ## Overview
 
 BASIX is an open hardware embedded controller built primarily with through-hole (THT) components and based on the PIC18F46K20 microcontroller.
@@ -11,6 +9,8 @@ BASIX is an open hardware embedded controller built primarily with through-hole 
 It was designed as an educational platform for learning embedded electronics, prototyping automation systems, and experimenting with industrial communication interfaces and isolated I/O.
 
 The complete hardware design is publicly available, including schematics, PCB layouts, manufacturing files, and documentation.
+
+![BASIX Alpha](images/real-topview.jpeg)
 
 ## Features
 
