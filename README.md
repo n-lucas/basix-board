@@ -2,7 +2,7 @@
 
 Open hardware embedded I/O controller for automation and IoT projects.
 
-![BASIX Alpha](images/basix-alpha.jpg)
+![BASIX Alpha](images/real-topview.jpeg)
 
 ## Overview
 
@@ -25,6 +25,7 @@ The complete hardware design is publicly available, including schematics, PCB la
 - 2× relay outputs
 - 2× digital/PWM outputs
 - 5-position DIP switch for configuration
+- 3x General purpose LEDs (feedback, status, etc)
 - ICSP programming header
 
 ## Fabrication / Assembly
@@ -41,9 +42,8 @@ This approach makes the project suitable for hobbyists, students, makers, and an
 |---|---|
 | `hardware/kicad/` | Editable KiCad project files, including schematics, PCB layout, symbols, and footprints. |
 | `hardware/gerbers/` | Gerber and drill files ready for PCB manufacturing. |
-| `hardware/pdf/` | PDF exports of schematics, PCB layouts, and hardware documentation. |
 | `hardware/bom/` | Bill of Materials (BOM), including component references, quantities, and part numbers. |
-| `docs/` | Technical documentation, hardware architecture, design notes, and revision history. |
+| `docs/` | Technical documentation, hardware architecture, schematics, design notes, and revision history. |
 | `images/` | Board photographs, KiCad 3D renders, diagrams, and images used throughout the documentation. |
 
 ## Documentation
@@ -55,6 +55,25 @@ Topics include:
 - Hardware architecture
 - Design decisions
 - Revision history
+
+## Expansion Modules
+
+BASIX was designed to be easily expanded through its RS-485 interface.
+
+Developers, students, and makers are encouraged to design and share their own expansion modules, such as:
+
+- Remote digital I/O
+- Analog input/output modules
+- Relay expansion boards
+- Environmental sensors
+- Energy monitoring
+- LCD/HMI interfaces
+- Motor controllers
+- Industrial protocol gateways
+
+The goal is to build an open ecosystem of interoperable modules that can communicate with BASIX using a simple RS-485 network.
+
+If you develop an expansion board, feel free to share your project with the community by opening a Pull Request or creating your own repository referencing BASIX.
 
 ## Project Status
 
