@@ -4,7 +4,7 @@ Open hardware embedded I/O controller for automation and IoT projects.
 
 ## Overview
 
-BASIX is an open hardware embedded controller built primarily with through-hole (THT) components and based on the PIC18F46K20 microcontroller.
+BASIX is an open hardware embedded controller built primarily with through-hole (THT) components and based on the PIC18F46K20 microcontroller, providing Ethernet, RS485 and other peripherals.
 
 It was designed as an educational platform for learning embedded electronics, prototyping automation systems, and experimenting with industrial communication interfaces and isolated I/O.
 
@@ -14,7 +14,7 @@ The complete hardware design is publicly available, including schematics, PCB la
 
 ## Features
 
-- 12–24 VDC power input
+- 12VDC power input
 - PIC18F46K20 microcontroller (16 MHz)
 - Ethernet interface (W5500)
 - RS-485 interface
